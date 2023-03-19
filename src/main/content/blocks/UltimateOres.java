@@ -7,8 +7,10 @@ import mindustry.world.blocks.environment.OreBlock;
 public class UltimateOres {
 
     public static Block oreIron, oreAluminum;
+
     public static void load()
     {
+
         oreIron = new OreBlock("iron-ore")
         {{
             variants = 3;
@@ -23,5 +25,6 @@ public class UltimateOres {
             oreScale = 20.38953f;
             itemDrop = UltimateItems.aluminum;
         }};
+
     }
 }

@@ -13,8 +13,10 @@ import mindustry.ui.dialogs.BaseDialog;
 
 public class UltimateResourcesJavaMain extends Mod
 {
+
     public UltimateResourcesJavaMain()
     {
+
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
             //show dialog upon startup
@@ -28,17 +30,23 @@ public class UltimateResourcesJavaMain extends Mod
             });
         });
         Log.info("Loaded Ultimate Resources constructor.");
+
     }
+
     @Override
     public void loadContent()
     {
+
         Log.info("Loading content.");
+
         // Load contents
         UltimateItems.load();
         UltimateFactories.load();
         UltimateOres.load();
         UltimateWalls.load();
+
         Log.info("All contents loaded.");
+
     }
 }
 

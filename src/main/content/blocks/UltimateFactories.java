@@ -21,6 +21,7 @@ public class UltimateFactories {
 
     public static void load()
     {
+
         duralumin = new GenericCrafter("duralumin-factory")
         {{
             ambientSound = Sounds.smelter;

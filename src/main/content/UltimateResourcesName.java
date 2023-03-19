@@ -21,6 +21,7 @@ public class UltimateResourcesName {
 
     public static String generate()
     {
+
         class CharMap extends ObjectMap<String, Seq<String>>
         { }
 

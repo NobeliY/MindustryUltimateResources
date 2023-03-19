@@ -10,9 +10,11 @@ public class UltimateItems {
 
     // Alloys/Inter-metallic
     public static Item duralumin;
+
     // Load Items
     public static void load()
     {
+
         // Raw materials
         iron = new Item("iron", Color.valueOf("A19D94"))
         {{
