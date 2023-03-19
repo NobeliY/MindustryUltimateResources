@@ -22,9 +22,7 @@ public class UltimateResourcesName {
     public static String generate()
     {
         class CharMap extends ObjectMap<String, Seq<String>>
-        {
-
-        }
+        { }
 
         LoadedMod mod = Vars.mods.getMod(UltimateResourcesJavaMain.class);
         Fi file = mod.root.child("NameMarkovChain.json");

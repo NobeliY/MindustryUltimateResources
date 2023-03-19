@@ -10,7 +10,6 @@ public class UltimateItems {
 
     // Alloys/Inter-metallic
     public static Item duralumin;
-
     // Load Items
     public static void load()
     {

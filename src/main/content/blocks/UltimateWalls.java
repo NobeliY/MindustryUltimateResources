@@ -12,7 +12,6 @@ import static mindustry.type.ItemStack.with;
 public class UltimateWalls {
 
     public static Block ironWall, ironWallLarge;
-
     public static void load()
     {
         int wallHealthMultiplier = 4;
@@ -22,7 +21,6 @@ public class UltimateWalls {
             health = 90 * wallHealthMultiplier;
             researchCostMultiplier = .1f;
             envDisabled |= Env.scorching;
-
         }};
         ironWallLarge = new Wall("iron-wall-large")
         {{

@@ -21,7 +21,6 @@ public class UltimateFactories {
 
     public static void load()
     {
-
         duralumin = new GenericCrafter("duralumin-factory")
         {{
             ambientSound = Sounds.smelter;
@@ -35,7 +34,6 @@ public class UltimateFactories {
             outputItem = new ItemStack(UltimateItems.duralumin, 1);
             requirements(Category.crafting, with(Items.copper, 75, UltimateItems.aluminum, 95));
             size = 2;
-
             consumeItems(with(Items.copper, 1, UltimateItems.aluminum, 2));
             consumePower(.50f);
         }};
